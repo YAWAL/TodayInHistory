@@ -1,0 +1,10 @@
+{
+    "host": ":8888",
+    "database": {
+        "dialect": "postgres",
+        "user": "postgres",
+        "db_name": "history",
+        "ssl_mode": "disable",
+        "password": "postgres"
+    }
+}
