@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/YAWAL/TodayInHistory.svg?branch=master)](https://travis-ci.org/YAWAL/TodayInHistory)
+
 # Day In History
 
 Web server is using API https://history.muffinlabs.com/#api .
