@@ -107,11 +107,11 @@ func request(url string) (historyData model.HistoryData, err error) {
 
 func validDate(month, day string) bool {
 	intMonth, err := strconv.Atoi(month)
-	if intMonth > 12 || err != nil {
+	if intMonth > 12 || intMonth < 1 || err != nil {
 		return false
 	}
 	dayMonth, err := strconv.Atoi(day)
-	if dayMonth > 31 || err != nil {
+	if dayMonth > 31 || dayMonth < 1 || err != nil {
 		return false
 	}
 	return true
