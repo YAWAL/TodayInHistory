@@ -24,7 +24,7 @@ Web server is using API https://history.muffinlabs.com/#api .
 }
 ```
 4. From root folder run ```go run main.go```
-4. Open browser on port ```:8888``` or port provided by you in config file and use
+4. Open browser on port ```:8888``` or port provided by you in config file and use following endpoints
 
 ## Endpoints:
 
